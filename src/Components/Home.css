@@ -1,0 +1,99 @@
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+.main-card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1vw;
+    justify-content: center;
+    width: 45vw;
+    /* border: 1px solid; */
+
+}
+.image-div{
+    width: 90%;
+    height: 50vh;
+    margin: 5px;
+    position: relative;
+    z-index: 0;
+}
+.middile-div-image{
+    width: 100%;
+    height:100%
+}
+.middile-div{
+    display: flex;
+    /* border : 1px solid black; */
+    justify-content: space-between;
+    margin: 4vw;
+   
+}
+.main-div1{
+    display: flex;
+    justify-content: center;
+    border:2px solid blacl
+
+}
+.less-then-div{
+    position: relative;
+    top: 15vh;
+    font-size: 7vw;
+    left : 5vw;
+    /* background-color: antiquewhite; */
+    opacity: 0.5;
+    color: aliceblue;
+    cursor: pointer;
+    z-index: 1;
+}
+.less-thn-div{
+    position: relative;
+    top: 15vh;
+    font-size: 7vw;
+     right: 5vw;
+    /* background-color: antiquewhite; */
+    opacity: 0.5;
+    color: aliceblue;
+    cursor: pointer;
+}
+/* .toggle{
+    background-color: rgb(58, 105, 146);
+    opacity: 0.8;
+    
+    display: block;
+    z-index: 3;
+    padding: 3vw;
+    position: absolute;
+    width: 20vw;
+    left:20px;
+    
+
+} */
+.notToggle{
+    display: none;
+   
+}
+.children-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+.children-div div{
+    height: 10vw;
+    width: 10vw;
+    /* border: 2px solid black; */
+    border-radius: 15px;;
+   
+}
+.children-div1{
+    background-color: #F4F2FC;
+}
+.children-div2{
+    background-color:#FCEFF4
+}
+.children-div3{
+    background-color: #FEF9EE
+}
+.children-div4{
+    background-color:#FDF3F0
+}

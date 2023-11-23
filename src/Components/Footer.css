@@ -1,0 +1,118 @@
+.upper-footer-div-image{
+    height: 20vw;
+    background-color: #0F2647;
+    position: relative;
+    z-index: -10;
+ 
+}
+.upper-footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0F2647;
+
+}
+h1{
+    
+    color: rgb(0, 0, 0);
+    outline: #0F2647;
+    font-size: 3vw;
+    
+}
+
+.footer-div-image img{
+    width:100%;
+    height: 20vw;
+    z-index: 0;
+   
+}
+.transparent-div{
+    background-color: #0F2647;
+    position: absolute;
+    width:98.8vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    opacity: 0.6;
+    color: aliceblue; 
+}
+
+
+.footer-div{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #0F2647;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c2ddef;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    height: 20vw;
+  
+}
+
+.footer-div1,.footer-div4{
+    display: flex;
+    justify-content:space-evenly;
+    /* border: 1px solid ; */
+    flex-direction: column;
+    width:20vw;
+    padding: 2vw;
+    color: #c2ddef;
+    /* border: 2px solid black */
+    
+    
+}
+.logo-image1{
+    width: 20vw;
+    border-radius: 5px;
+    /* background-color: rgb(241, 32, 25); */
+}
+.footer-div4 div h3{
+    /* border: 2px solid black; */
+}
+.download-div{
+    display: flex;
+    /* border: 2px solid black; */
+}
+.download-div div{
+    
+    /* border: 2px solid black; */
+}
+.conection-div{
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid black; */
+    gap: 2vw;
+}
+.footer-div1 h4, .conection-div {
+    /* border: 3px solid black; */
+    padding-left:1vw ;
+}
+.test{
+       color: #c2ddef;
+       transform: rotateY(90);
+
+
+}
+.test:hover{
+    color: rgb(201, 85, 129)
+    
+
+}
+.footer-div2{
+    /* border: 2px solid white; */
+    padding: 3.4vw;
+   
+}
+
+.footer-div2 a{
+  
+
+}
+.footer-div4{
+    /* border: 2px solid white; */
+}

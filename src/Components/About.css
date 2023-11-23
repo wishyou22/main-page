@@ -1,0 +1,37 @@
+.content-div{
+    display:flex
+}
+.content-div1{
+    width: 40%;
+    /* border: 2px solid black; */
+    padding: 2vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+
+}
+.content-div2{
+    width: 50%;
+    /* border: 2px solid black; */
+}
+.content-div2 img{
+  width: 60%;
+  padding: 5vw;
+
+} 
+.managment-div1{
+    display: flex;
+    justify-content: space-around;
+    margin:3vw ;
+
+}
+.managment-div1 div {
+    width:13vw;
+    height:13vw;
+    border:3px solid rgb(5, 5, 58);
+    border-radius: 50%;
+    background-color:#FCEFF4;
+    padding: 15px;
+}
+.content-div-h1{
+    color: crimson;
+}

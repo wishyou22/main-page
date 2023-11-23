@@ -1,0 +1,33 @@
+/* .inner-card{
+    background-color: rgb(240, 192, 129);
+    color: rgb(26, 2, 2);
+    width: 300px;
+    margin: 5px;
+    padding: 1vw;
+    position :absolute;
+    transition: all 0.3s;
+    border-top: 2px solid black;
+    border-left: 2px solid black;;
+
+} */
+.inner-card{
+ 
+    /* color: rgb(26, 2, 2); */
+    width:300px;
+    margin: 5px;
+    padding: 1vw;
+    transition: transform 0.5s;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 15px;
+
+
+}
+.inner-card:hover{
+    
+    border-width: 4px; 
+    transform: translateY(-10px);
+    transition: transform 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}

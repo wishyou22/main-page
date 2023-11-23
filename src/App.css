@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing:content-box;
+}
+/* .App{
+  width :100%;
+  border:2px solid black;
+  /* position: fixed; */
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;  
+} */ 

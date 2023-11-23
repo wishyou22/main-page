@@ -1,0 +1,13 @@
+.Learning-main-div{
+    display: flex;
+    border: 1px solid black;
+}
+.Learning-main-div img{
+    width: 20vw;
+    height:20vw
+}
+.Learning-content-div div h1{
+    font-size: 4rem;
+    color: rgb(15, 15, 114);
+    font-weight: bolder;
+}
